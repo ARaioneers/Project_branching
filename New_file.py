@@ -1,6 +1,6 @@
 def large():
     l1=[]
-    a=eval(input("Enter a no= "))
+    a=eval(input("Enter 'a' no= "))
     if a>1:
         for i in range(1,a+1):
             if int(a%i==0):
@@ -17,5 +17,6 @@ def large():
                 print(f"largest prime factor of a number {a} is = ",max(l2))
     else:
         print(f"factor of {a} is not found")
+        
         
 large()
