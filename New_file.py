@@ -11,6 +11,7 @@ def large():
                     for k in range(2,j):
                         if j % k ==0:
                             break
+                        
             else:
                 l2.append(j)
                 print()
